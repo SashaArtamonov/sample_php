@@ -8,16 +8,7 @@ while ($dGet = $qGet->fetch_object())
     $rows[] = $dGet;
 ?>
 
-<?php
-/*$qGet2 = $mysqli->query('
-        SELECT *
-        FROM photos
-        WHERE score>=1500
-        ORDER BY score DESC
-        ');
-while ($dGet = $qGet2->fetch_object())
-    $rowsmax[] = $dGet;*/
-?>
+
 
 <div class="faces">
     <img src="<?php echo htmlspecialchars($rows[0]->path); ?>" class="photos" alt="<?php echo htmlspecialchars($rows[0]->name); ?>" data-token="<?php echo $rows[0]->token; ?>" data-score="<?php echo $rows[0]->score; ?>" width="266" height="400" />
