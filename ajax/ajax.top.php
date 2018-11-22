@@ -1,11 +1,12 @@
 <?php
 $qGet2 = $mysqli->query('
-        SELECT token, name, path, score
+        SELECT *
         FROM photos
-        ORDER BY RAND()
-        LIMIT 2');
+        WHERE score>=1900
+        ORDER BY score DESC
+');
 while ($dGet = $qGet2->fetch_object())
-    $rowsmax[] = $dGet;
+$rowsmax[] = $dGet;
 ?>
 
 <p style="left:200px;font-weight:bold;">Top 3 November</p>
