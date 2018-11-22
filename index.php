@@ -26,6 +26,9 @@ require_once('process.php');
         <div id="dual">
             <?php require_once('ajax/ajax.dual.php'); ?>
         </div>
+        <div id="dual">
+            <?php require_once('ajax/ajax.top.php'); ?>
+        </div>
         <footer><a href="#">DevOps4life &copy 2018</a></footer>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
         <script type="text/javascript">
