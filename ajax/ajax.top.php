@@ -2,7 +2,7 @@
 $qGet2 = $mysqli->query('
         SELECT *
         FROM photos
-        WHERE score>=1900
+        WHERE score>=1800
         ORDER BY score DESC
 ');
 while ($dGet = $qGet2->fetch_object())
@@ -25,7 +25,7 @@ $rowsmax[] = $dGet;
     </ul>
 </div>
 <div class="topfaces">
-    <img src="<?php echo htmlspecialchars($rowsmax[2]->path); ?>" class="topphotos" alt="<?php echo htmlspecialchars($rowsmax[2]->name); ?>" data-token="<?php echo $rowsmax[2]->token; ?>" data-score="<?php echo $rowsmax[2]->score; ?>" width="150" height="200" />
+    <img src="<?php echo htmlspecialchars($rowsmax[2]->path); ?>" class="topphotos" alt="<?php echo htmlspecialchars($rowsmax[2]->path); ?>" data-token="<?php echo $rowsmax[2]->token; ?>" data-score="<?php echo $rowsmax[2]->score; ?>" width="150" height="200" />
     <ul>
         <li><?php echo htmlspecialchars($rowsmax[2]->name); ?></li>
         <li>Score: <?php echo number_format($rowsmax[2]->score, 0, ',', ' '); ?></li>
