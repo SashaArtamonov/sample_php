@@ -22,8 +22,7 @@ require_once('process.php');
             <a href="login.php">&#1051;&#1086;&#1075;&#1110;&#1085;</a> 
             <a href="register.php">&#1056;&#1077;&#1108;&#1089;&#1090;&#1088;&#1072;&#1094;&#1110;&#1103;</a> 
         </header>
-         <p id="first">  </p>
-         <p id="first">  </p>
+        <p id="first">This or That?</p>
         <div id="dual">
             <?php require_once('ajax/ajax.dual.php'); ?>
         </div>
