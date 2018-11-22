@@ -1,6 +1,6 @@
 -- MySQL dump 10.15  Distrib 10.0.20-MariaDB, for Linux (x86_64)
 --
--- Host: localhost    Database: u981124431_facem
+-- Host: localhost    Database: photos
 -- ------------------------------------------------------
 -- Server version	10.0.20-MariaDB
 
