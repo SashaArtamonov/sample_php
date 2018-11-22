@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 $qGet = $mysqli->query('
         SELECT token, name, path, score
         FROM photos
@@ -7,12 +8,15 @@ $qGet = $mysqli->query('
 while ($dGet = $qGet->fetch_object())
     $rows[] = $dGet;
 
+=======
+>>>>>>> fa1ac17b9c8868810daad80d0fd51d8ce61d9d54
 $qGet2 = $mysqli->query('
         SELECT *
         FROM photos
         WHERE score>=1500
         ORDER BY score DESC
         ');
+<<<<<<< HEAD
 while ($dGet2 = $qGet2->fetch_object())
     $rowsmax[] = $dGet2;
 ?>
@@ -35,6 +39,12 @@ while ($dGet2 = $qGet2->fetch_object())
     </ul>
 </div>
 
+=======
+while ($dGet = $qGet2->fetch_object())
+    $rowsmax[] = $dGet;
+?>
+
+>>>>>>> fa1ac17b9c8868810daad80d0fd51d8ce61d9d54
 <p style="left:200px;font-weight:bold;">Top 3 November</p>
 <div class="topfaces">
     <img src="<?php echo htmlspecialchars($rowsmax[0]->path); ?>" class="topphotos" alt="<?php echo htmlspecialchars($rowsmax[0]->name); ?>" data-token="<?php echo $rowsmax[0]->token; ?>" data-score="<?php echo $rowsmax[0]->score; ?>" width="150" height="200" />

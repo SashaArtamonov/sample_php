@@ -5,8 +5,8 @@ $qGet3 = $mysqli->query('
         FROM photos
         ORDER by score DESC
         ');
-while ($dGet3 = $qGet3->fetch_object())
-    $rowsall[] = $dGet3;
+while ($dGet = $qGet3->fetch_object())
+    $rowsall[] = $dGet;
 ?>
 
 
