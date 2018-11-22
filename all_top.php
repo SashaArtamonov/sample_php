@@ -17,7 +17,7 @@ require_once('process.php');
         <header>
            <h1><center>&#1050;&#1086;&#1088;&#1086;&#1083;&#1077;&#1074;&#1072; EPAM</center></h1>
            <a href="index.php">&#1043;&#1086;&#1083;&#1086;&#1074;&#1085;&#1072;</a>
-           <a href="all_top.php">&#1056;&#1077;&#1081;&#1090;&#1080;&#1085;&#1075;</a>
+           <a href="all_top.php">&#x422;&#x43E;&#x43F; 3</a>
         </header>  
         <div id="dual">
             <?php require_once('ajax/ajax.top.php'); ?>
