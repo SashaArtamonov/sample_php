@@ -73,3 +73,5 @@ if (isset($_POST['winner'], $_POST['looser'],
         exit;
     }
 }
+
+?>
