@@ -713,17 +713,17 @@ while ($dGet = $qGet3->fetch_object())
     </ul>
 </div>
 <div class="topfaces">
-    <img src="<?php echo htmlspecialchars($rowsall[100]->path); ?>" class="topphotos" alt="<?php echo htmlspecialchars($rowsall[100]->name); ?>" data-token="<?php echo $rowsall[100]->token; ?>" data-score="<?php echo $rowsmax[100]->score; ?>" width="150" height="200" />
+    <img src="<?php echo htmlspecialchars($rowsall[101]->path); ?>" class="topphotos" alt="<?php echo htmlspecialchars($rowsall[101]->name); ?>" data-token="<?php echo $rowsall[101]->token; ?>" data-score="<?php echo $rowsmax[101]->score; ?>" width="150" height="200" />
     <ul>
-        <li><?php echo htmlspecialchars($rowsall[100]->name); ?></li>
-        <li>Score: <?php echo number_format($rowsall[100]->score, 0, ',', ' '); ?></li>
+        <li><?php echo htmlspecialchars($rowsall[101]->name); ?></li>
+        <li>Score: <?php echo number_format($rowsall[101]->score, 0, ',', ' '); ?></li>
     </ul>
 </div>
 <div class="topfaces">
-    <img src="<?php echo htmlspecialchars($rowsall[100]->path); ?>" class="topphotos" alt="<?php echo htmlspecialchars($rowsall[100]->name); ?>" data-token="<?php echo $rowsall[100]->token; ?>" data-score="<?php echo $rowsmax[100]->score; ?>" width="150" height="200" />
+    <img src="<?php echo htmlspecialchars($rowsall[102]->path); ?>" class="topphotos" alt="<?php echo htmlspecialchars($rowsall[102]->name); ?>" data-token="<?php echo $rowsall[102]->token; ?>" data-score="<?php echo $rowsmax[102]->score; ?>" width="150" height="200" />
     <ul>
-        <li><?php echo htmlspecialchars($rowsall[100]->name); ?></li>
-        <li>Score: <?php echo number_format($rowsall[100]->score, 0, ',', ' '); ?></li>
+        <li><?php echo htmlspecialchars($rowsall[102]->name); ?></li>
+        <li>Score: <?php echo number_format($rowsall[102]->score, 0, ',', ' '); ?></li>
     </ul>
 </div>
 <div class="topfaces">
