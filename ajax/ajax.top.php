@@ -13,7 +13,7 @@ $month = date('m');
 
 ?>
 
-<p style="left:200px;font-weight:bold;">Top 3 <?php $month?></p>
+<p style="left:200px;font-weight:bold;">Top 3 <?php echo $month?></p>
 <div class="faces">
     <img src="<?php echo htmlspecialchars($rowsmax[0]->path); ?>" class="photos" alt="<?php echo htmlspecialchars($rowsmax[0]->name); ?>" data-token="<?php echo $rowsmax[0]->token; ?>" data-score="<?php echo $rowsmax[0]->score; ?>" width="150" height="200" />
     <ul>
