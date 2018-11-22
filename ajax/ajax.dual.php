@@ -7,6 +7,11 @@ $qGet = $mysqli->query('
 while ($dGet = $qGet->fetch_object())
     $rows[] = $dGet;
 ?>
+<<<<<<< HEAD
+=======
+
+<?php
+>>>>>>> a669b7eca40c82569dd244a63cea97403672486b
 /*$qGet2 = $mysqli->query('
         SELECT *
         FROM photos
@@ -15,8 +20,11 @@ while ($dGet = $qGet->fetch_object())
         ');
 while ($dGet = $qGet2->fetch_object())
     $rowsmax[] = $dGet;*/
+<<<<<<< HEAD
 
-
+=======
+?>
+>>>>>>> a669b7eca40c82569dd244a63cea97403672486b
 
 <div class="faces">
     <img src="<?php echo htmlspecialchars($rows[0]->path); ?>" class="photos" alt="<?php echo htmlspecialchars($rows[0]->name); ?>" data-token="<?php echo $rows[0]->token; ?>" data-score="<?php echo $rows[0]->score; ?>" width="266" height="400" />
@@ -26,7 +34,7 @@ while ($dGet = $qGet2->fetch_object())
     </ul>
 </div>
 <p id="middle">OR</p>
-<img src="loader3.gif" alt="Chargement..." width="64" height="64" id="loader" />
+<img src="loader.gif" alt="Chargement..." width="64" height="64" id="loader" />
 <div class="faces">
     <img src="<?php echo htmlspecialchars($rows[1]->path); ?>" class="photos" alt="<?php echo htmlspecialchars($rows[1]->path); ?>" data-token="<?php echo $rows[1]->token; ?>" data-score="<?php echo $rows[1]->score; ?>" width="266" height="400" />
     <ul>
@@ -35,6 +43,7 @@ while ($dGet = $qGet2->fetch_object())
     </ul>
 </div>
 
+<<<<<<< HEAD
 <!--
 <p style="left:200px;font-weight:bold;">Top 3 November</p>
 <div class="topfaces">
@@ -58,3 +67,6 @@ while ($dGet = $qGet2->fetch_object())
         <li>Score: <?php echo number_format($rowsmax[2]->score, 0, ',', ' '); ?></li>
     </ul>
 </div>-->
+=======
+
+>>>>>>> a669b7eca40c82569dd244a63cea97403672486b
