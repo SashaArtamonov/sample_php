@@ -9,7 +9,7 @@ while ($dGet = $qGet2->fetch_object())
 $rowsmax[] = $dGet;
 
 $transdate = date('m-d-Y', time());
-$month = date('m');
+$month = date('F');
 
 ?>
 
